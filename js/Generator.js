@@ -641,6 +641,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <li><a href="Instructions.html" data-key="instructions">Instructions</a></li>
         <li><a href="Minifigs.html" data-key="minifigs">Minifigs</a></li>
         <li><a href="Technics.html" data-key="technics">Technics</a></li>
+        <li><a href="Timeline.html">Timeline</a></li>
         <li class="has-submenu">
           <a href="Conventions.html"><span data-key="conventions">Conventions</span><span class="arrow-down">&#9662;</span></a>
           <ul class="submenu">
@@ -695,6 +696,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <li class="separator"></li>
         <li><a href="Technics.html" data-key="technics">Technics</a></li>
         <li class="separator"></li>
+        <li><a href="Timeline.html">Timeline</a></li>
+        <li class="separator"></li>
         <li class="mobile-has-submenu">
           <button class="submenu-toggle" aria-expanded="false"><span data-key="conventions">Conventions</span> <span class="arrow-down">&#9662;</span></button>
           <ul class="mobile-submenu">
@@ -731,6 +734,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <li><a href="Instructions.html" data-key="instructions"></a></li>
           <li><a href="Minifigs.html" data-key="minifigs"></a></li>
           <li><a href="Technics.html" data-key="Technics"></a></li>
+          <li><a href="Timeline.html">Timeline</a></li>
           <li><a href="Conventions.html" data-key="conventions"></a></li>
         </ul>
       </div>
