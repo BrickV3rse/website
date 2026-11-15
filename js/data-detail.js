@@ -2098,6 +2098,22 @@ const dataDetails = [
     instructions: "img/instructions/Petronas Tower Instructions - BrickV3rse.pdf",
     model3d: "img/3d/Kuala_Lumpur.glb",
   },
+  {
+    id: "moc-others-10",
+    locations: "Milano, Italy",
+    images: {
+      gallery: [
+        { src: "img/MOC/moc-others-10-1.webp", caption: "Détail 1" },
+      ],
+      reference: "img/MOC/moc-others-10-ref.webp",
+    },
+    stats: {
+      pieces: { en: "", fr: "" },
+      dimensions: "",
+      buildTime: ""
+    },
+    model3d: "img/3d/Milano.glb",
+  },
 
 
   //Figurines//

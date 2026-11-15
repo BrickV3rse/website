@@ -1871,6 +1871,24 @@ const project = [
         tag: "",
         favoris: false,
     },
+    {//Milano//
+        id: "moc-others-10",
+        name: {
+            fr: "Milano",
+            en: "Milano",
+        },
+        key: "project_Milano",
+        label: "Milano",
+        date: "2026-11-14",
+        relevance: 3,
+        filter: "",
+        img: "img/Miniatures/Milano.webp",
+        alt: "Milano",
+        type: "MOC",
+        theme: "Others",
+        tag: "",
+        favoris: false,
+    },
 
     //Liste des figurines //
     {//Tony Stark//
