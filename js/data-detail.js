@@ -2096,7 +2096,7 @@ const dataDetails = [
       buildTime: ""
     },
     instructions: "img/instructions/Petronas Tower Instructions - BrickV3rse.pdf",
-    model3d: "img/3d/Petronas_tower.glb",
+    model3d: "img/3d/Kuala_Lumpur.glb",
   },
 
 

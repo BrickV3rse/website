@@ -6,7 +6,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 // Les lignes correspondent aux arêtes franches et aux limites de pièces non soudées.
 const instances = new WeakMap();
 
-function mount({ url, container, message, toggle, reset }) {
+function mount({ url, container, message, reset }) {
   if (!url || !container || instances.has(container)) return;
   const state = { url, outlines: [], loaded: false };
   instances.set(container, state);
@@ -81,9 +81,6 @@ function mount({ url, container, message, toggle, reset }) {
   }
 
   if (reset) reset.addEventListener('click', fitView);
-  if (toggle) toggle.addEventListener('change', () => {
-    for (const line of state.outlines) line.visible = toggle.checked;
-  });
 
   // Rendu uniquement si l'onglet 3D est visible, pour préserver les ressources.
   let frame = null;
@@ -138,7 +135,7 @@ function mount({ url, container, message, toggle, reset }) {
         outlines.name = 'Brick outlines';
         outlines.frustumCulled = false;
         outlines.renderOrder = 1;
-        outlines.visible = toggle ? toggle.checked : true;
+        outlines.visible = true;
         object.add(outlines);
         state.outlines.push(outlines);
       } catch (outlineError) {

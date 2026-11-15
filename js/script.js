@@ -279,6 +279,13 @@ function setLanguage(lang) {
       el.innerHTML = text;
     }
   });
+  // Traduire aussi les libellés accessibles des boutons (ex. recentrage 3D).
+  document.querySelectorAll("[data-aria-key]").forEach(el => {
+    const key = el.getAttribute("data-aria-key");
+    if (translations[currentLang]?.[key]) {
+      el.setAttribute("aria-label", translations[currentLang][key]);
+    }
+  });
   // Mise à jour du label de tri avec préfixe + option traduite
   const sortLabel = document.getElementById("sort-label");
   if (sortLabel) {
