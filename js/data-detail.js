@@ -848,7 +848,7 @@ const dataDetails = [
       buildTime: ""
     },
     instructions: "img/instructions/Wakanda Throne Instructions - BrickV3rse.pdf",
-    model3d: "img/3d/wakanda-throne2.glb",
+    model3d: "img/3d/moc-marvel-37.glb",
   },
   {
     id: "moc-marvel-36",
@@ -2096,7 +2096,7 @@ const dataDetails = [
       buildTime: ""
     },
     instructions: "img/instructions/Petronas Tower Instructions - BrickV3rse.pdf",
-    model3d: "img/3d/Kuala_Lumpur.glb",
+    model3d: "img/3d/moc-others-9.glb",
   },
   {
     id: "moc-others-10",
@@ -2112,7 +2112,7 @@ const dataDetails = [
       dimensions: "",
       buildTime: ""
     },
-    model3d: "img/3d/Milano.glb",
+    model3d: "img/3d/moc-others-10.glb",
   },
 
 
