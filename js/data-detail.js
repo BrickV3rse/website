@@ -1572,7 +1572,7 @@ const dataDetails = [
       buildTime: ""
     },
     instructions: "img/instructions/McDonald’s Logo Instructions - BrickV3rse.pdf",
-
+    model3d: "img/3d/moc-jurassic-park-13.glb",
   },
   {
     id: "moc-jurassic-park-12",
